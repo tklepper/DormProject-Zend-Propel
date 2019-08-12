@@ -1,0 +1,4 @@
+[12-Aug-2019 09:19:03 UTC] PHP Fatal error:  Class 'Zend\Test\PHPUnit\Controller\AbstractHttpControllerTestCase' not found in /home/itsgenius/projects/dorm/zend/module/Dorm/test/Controller/DormControllerTest.php on line 9
+[12-Aug-2019 09:19:40 UTC] PHP Fatal error:  Class 'Zend\Test\PHPUnit\Controller\AbstractHttpControllerTestCase' not found in /home/itsgenius/projects/dorm/zend/module/Dorm/test/Controller/DormControllerTest.php on line 9
+[12-Aug-2019 13:16:53 UTC] PHP Fatal error:  Class 'DormTest\Controller\AbstractHttpControllerTestCase' not found in /home/itsgenius/projects/dorm/zend/module/Dorm/test/Controller/DormControllerTest.php on line 6
+[12-Aug-2019 13:20:23 UTC] PHP Parse error:  syntax error, unexpected 'parent' (T_STRING) in /home/itsgenius/projects/dorm/zend/module/Dorm/test/Controller/DormControllerTest.php on line 28

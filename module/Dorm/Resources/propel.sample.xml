@@ -1,0 +1,30 @@
+<config>
+    <propel>
+        <database>
+            <connections>
+                <connection id="db_name">
+                    <adapter>mysql</adapter>
+                    <classname>Propel\Runtime\Connection\ConnectionWrapper</classname>
+                    <dsn>mysql:host=localhost;dbname=db_name</dsn>
+                    <user>db_user</user>
+                    <password>secret</password>
+                    <attributes></attributes>
+                    <settings>
+                        <charset>utf8mb4</charset>
+                        <queries>
+                            <utf8>SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci, COLLATION_CONNECTION = utf8mb4_unicode_ci, COLLATION_DATABASE = utf8mb4_unicode_ci, COLLATION_SERVER = utf8mb4_unicode_ci</utf8>
+                        </queries>
+                    </settings>
+                </connection>
+            </connections>
+        </database>
+        <runtime>
+            <defaultConnection>db_name</defaultConnection>
+            <connection>db_name</connection>
+        </runtime>
+        <generator>
+            <defaultConnection>db_name</defaultConnection>
+            <connection>db_name</connection>
+        </generator>
+    </propel>
+</config>
